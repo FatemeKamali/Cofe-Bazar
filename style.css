@@ -1,0 +1,882 @@
+@media only screen and (max-width: 768px) {
+body{
+    direction: rtl;
+}
+.logo-photo{
+    display: none;
+}
+.NavbarDesktopTab{
+    display: none;
+}
+.download-bazar{
+    display: none;
+}
+.settings-menu{
+    display: none;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    gap: 12px;
+    position: sticky;
+    top: 0;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(184, 178, 178, 0.418);
+}
+.search-box{
+    display: flex;
+    flex-direction: row-reverse; 
+    border: 1px solid rgba(92, 90, 90, 0.418);
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 10px;
+    min-width: 360px; 
+}
+.search-input{
+    border: none;
+    flex-grow: 3;
+    direction: rtl;
+    font-size: 15px;
+}
+.person-photo{
+    height: 27px;
+    margin: 13px 9px 0px 0px;
+    cursor: pointer;
+}
+.menu-photo{
+    margin-top: 13px;
+    cursor: pointer;
+}
+.photo-mobile>img{
+    width: 100%;
+}
+.button-mob-desk>button{
+display: flex;
+gap: 8px;
+align-items: center;
+text-decoration: none;
+justify-content: space-around;
+background-color: #0EA960;
+border: none;
+border-radius: 4px;
+color: #fff;
+margin: 26px auto 0px auto;
+width: 260px;
+height: 55px;
+font-size: 20px;
+}
+.button-mob>button{
+display: flex;
+gap: 8px;
+align-items: center;
+text-decoration: none;
+justify-content: space-around;
+background-color: #F1F4FA;
+border: none;
+border-radius: 4px;
+color: #0EA960;
+margin: 10px auto 0px auto;
+width: 260px;
+height: 30px;
+font-size: 20px;
+}
+.button-download>span{
+    margin-left: 40px;
+}
+.sub-header{
+    display: flex;
+    flex-direction: row;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+.grouping-game{
+    font-size: 13px;
+    padding: 8px;
+    background-color: #F9FAFD;
+    border: #bbb9b94d 1px solid;
+    border-radius: 18px;
+}
+.sub-header{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 15px;
+}
+.grouping-flash>span{
+    font-weight: 500;
+}
+.first-of-subhea{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+.text2-information{
+    color: #292727bb;
+    font-size: 14px;
+    display: block;
+}
+.text1-information{
+    font-size: 17px;
+}
+.box-contiener{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.box-information{
+    border-radius: 10px;
+    background-color: #F9FAFD;
+    padding: 10px;
+    text-align: center;
+}
+.download-button>button{
+    color: #fff;
+    border: none;
+    text-decoration: none;
+    background-color: #15a762;
+    border-radius: 5px;
+    width: 100%;
+    height: 45px;
+    font-size: 19px;
+    margin-top: 20px;
+}
+.download-button>button:hover{
+    cursor: pointer;
+    background-color: #0DA05B;
+}
+.for-cheack{
+    display: flex;
+    margin-top: 15px;
+    border: #8a888893 1px solid;
+    background-color: #F9FAFD;
+    border-radius: 5px;
+    height: 45px;
+    width: 96%;
+    margin-right: 12px;
+}
+.for-cheack>select{
+    text-decoration: none;
+    border: none;
+    font-size: 18px;
+    height: 40px;
+    width: 100%;
+    margin-top: 2px;
+}
+.app-photo{
+    display: flex;
+    gap: 8px;
+    margin-top: 14px;
+}
+.app-photo>img{
+    height: 220px;
+    border-radius: 10px;
+}
+.title-app-photo{
+    margin-top: 30px;
+    font-size: 18px;
+}
+.change-page{
+background-color: #fff;
+display: flex;
+width: 100%;
+justify-content: space-around;
+position: fixed;
+bottom: 0;
+right: 0;
+box-shadow: -2px -2px 10px #c0bbbb71;
+}
+.border-green{
+    border-bottom: #0DA05B 3px solid;
+    margin-left: 6px;
+}
+.details{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+.introducing-the-program{
+    font-size: 18px;
+}
+.more-details{
+    color: #0EA960;
+    font-weight: bold;
+}
+.top-of-comments{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 38px;
+}
+.star-of-comments{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    background-color: #F9FAFD;
+    padding: 5px;
+    border-radius: 5px;
+}
+.star-of-comments>img{
+    height: 18px;
+}
+.star-of-comments>span{
+    font-size: 13px;
+}
+.user-comments{
+    font-size: 17px;
+    font-weight: bold;
+}
+.number-of-votes{
+    font-size: 12px;
+    font-weight: smaller;
+}
+.scoring{
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.grey{
+    width: 600px;
+    height: 8px;
+    border-radius: 10px;
+    background-color: #F9FAFD;
+}
+.green-5{
+    background-color: #0EA960;
+    height: 8px;
+    border-radius: 10px;
+    width: 350px;
+}
+.green-4{
+    background-color: #0EA960;
+    height: 8px;
+    border-radius: 10px;
+    width: 40px;
+}
+.green-3{
+    background-color: #0EA960;
+    height: 8px;
+    border-radius: 10px;
+    width: 18px;
+}
+.green-2{
+    background-color: #0EA960;
+    height: 8px;
+    border-radius: 10px;
+    width: 12px;
+}
+.scoring-contiener{
+    margin-top: 12px;
+}
+.a-user{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.shaqa1-name{
+    padding-top: 8px;
+}
+.starring{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 6px;
+}
+.starring>span{
+    font-size: 12px;
+}
+.users-opinion{
+    margin-top: 22px;
+}
+.user-comment{
+    padding-top: 6px;
+    margin-right: 5px;
+}
+.more-cooment>button{
+    cursor: pointer;
+    text-decoration: none;
+    border: none;
+    background-color: #f9fbff;
+    margin: 20px 110px auto auto; /*چرا وسط نیامد با 0 auto*/
+    color: #0EA960;
+    width: 250px;
+    font-weight: bold;
+    height: 35px;
+    border-radius: 4px;
+    font-size: 14px;
+} 
+.more-cooment>button:hover{
+    background-color: #F1F4FA;
+}
+.game-names{
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+} 
+.a-game>img{
+    height: 100px;
+    border-radius: 15px;
+    padding: 7px;
+}
+.related-programs{
+    margin-top: 80px;
+}
+.others-have-installed{
+    margin-top: 40px;
+}
+.similar-programs{
+    margin-top: 40px;
+}
+.title-of-3{
+    margin-bottom: 17px;
+    font-size: 18px;
+}
+.game-neme{
+    font-size: 13px;
+}
+.type-of-game{
+    color: #4d4a4a;
+    font-size: 14px;
+    padding-right: 10px;
+    padding: 7px 11px 7px 7px;
+}
+.a-game:hover{
+    cursor: pointer;
+    box-shadow: 5px 2px 7px #7e7b7b56;
+    transform: translate(1px);
+}
+.a-game{
+    border-radius: 8px;
+    background-color: #fff;
+
+}
+.nothing{
+    height: 70px;
+}
+.app-web{
+    display: none;
+}
+.no-mob{
+    display: none;
+}
+.no-details{
+    display: none;
+}
+.footer{
+    display: none;
+}
+}
+@media only screen and (min-width: 768px) {
+    body{
+        direction: rtl;
+        background-color: #F9FAFD;
+        margin-right: 88px;
+    }
+    a{
+        text-decoration: none;
+        color: #000;
+    }
+    .header{ /*چطور تا اخرش کشیده بشه*/
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        background-color: #fff;
+        position: fixed;
+        right: 0;
+        top: 0;
+        left: 0;
+        height: 70px;
+        box-shadow: 0px 6px 26px #ccc8c856;
+    }
+    .in-header{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-left: 300px;
+        margin-right: 90px;
+    }
+    .menu-photo{
+        display: none;
+    }
+    .NavbarDesktopTab{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 13px;
+        font-size: 18px;
+    }
+    .logo-photo{
+        height: 40px;
+        margin-left: 45px;
+   }
+   .search-box{
+    display: flex;
+    flex-direction: row-reverse; 
+    border: 1px solid rgba(167, 162, 162, 0.452);
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 10px;
+    width: 200px; 
+    color: #000;
+    background-color: #fff;
+}
+.search-input{
+    border: none;
+    flex-grow: 3;
+    direction: rtl;
+    font-size: 15px;
+    width: 100px;
+}
+.border-green{
+    border-bottom: #0DA05B 3px solid;
+    margin-left: 6px;
+}
+.header>button{
+    color: #fff;
+    border: none;
+    text-decoration: none;
+    background-color: #15a762;
+    border-radius: 5px;
+    height: 35px;
+    font-size: 15px;
+    width: 80px;
+    margin-top: 11px;
+}
+.header>button:hover{
+    cursor: pointer;
+    background-color: #0DA05B;
+}
+.person-photo{
+    margin: 11px 8px auto 8px;
+}
+.settings-menu{
+    margin-top: 11px;
+    margin: 25px 8px auto 8px;
+}
+.sub-header{
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    background-color: #FFFFFF;
+    border: #d4cece9c 1px solid;
+    padding: 16px;
+    border-radius: 5px;
+    width: 92%;
+    height: 25px;
+    gap: 10px;
+}
+.grouping-game{
+    text-align: center;
+}
+.grouping-flash{
+    text-align: center;
+    color: #dddde4;
+    font-weight: bold;
+}
+.download-button{
+    display: none;
+}
+.first-of-subhea{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.texts-of-subhea{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 260px;
+}
+.app-web>button{
+    color: #fff;
+    border: none;
+    text-decoration: none;
+    background-color: #15a762;
+    border-radius: 5px;
+    height: 40px;
+    font-size: 17px;
+    width: 100px;
+    margin-top: 11px;
+    font-weight: bold;
+}
+.app-web>button:hover{
+    cursor: pointer;
+    background-color: #0DA05B;
+}
+.text2-information{
+    color: #292727bb;
+    font-size: 14px;
+    display: block;
+}
+.text1-information{
+    font-size: 17px;
+}
+.box-contiener{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.box-information{
+    border-radius: 10px;
+    background-color: #F9FAFD;
+    padding: 10px;
+    text-align: center;
+}
+.about-app{
+    background-color: #fff;
+    width:100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: #d4cece9c 1px solid;
+    border-radius: 5px;
+}
+.for-cheack{
+    display: flex;
+    margin-top: 15px;
+    border: #d4cece9c 1px solid;
+    background-color: #fff;
+    border-radius: 5px;
+    height: 45px;
+    width: 104%;
+}
+.for-cheack>select{
+    /* text-decoration: none; */
+    border: none;
+    font-size: 18px;
+    height: 40px;
+    width: 100%;
+    margin-top: 2px;
+}
+.app-photo>img{
+    height: 310px;
+    border-radius: 10px;
+    padding: 5px;
+}
+.photo-of-app{
+    background-color: #fff;
+    border-radius: 5px;
+    border: #d4cece9c 1px solid;
+    width: 104%;
+    margin-top: 15px;
+}
+.no-desk{
+    display: none;
+}
+.title-app-photo{
+    font-size: 18px;
+    border-bottom:  #d4cece9c 1px solid;
+    margin: 10px auto 10px auto;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+.change-page{
+    display: none;
+}
+.details{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+.introducing-the-program{
+    font-size: 18px;
+}
+.more-details{
+display: none;
+}
+.comments{
+    background-color: #fff;
+    border-radius: 5px;
+    border: #d4cece9c 1px solid;
+    margin-top: 10px;
+    width: 87%;
+    padding: 10px;
+}
+.details-app{
+    background-color: #fff;
+    border: #d4cece9c 1px solid;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 10px;
+    width: 87%;
+}
+.top-of-comments{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 16px;
+}
+.star-of-comments{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    background-color: #F9FAFD;
+    padding: 5px;
+    border-radius: 5px;
+}
+.star-of-comments>img{
+    height: 18px;
+}
+.star-of-comments>span{
+    font-size: 13px;
+}
+.user-comments{
+    font-size: 17px;
+    font-weight: bold;
+}
+.number-of-votes{
+    font-size: 12px;
+    font-weight: smaller;
+}
+.scoring{
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.grey{
+    width: 600px;
+    height: 8px;
+    border-radius: 10px;
+    background-color: #F9FAFD;
+}
+.green-5{
+    background-color: #0EA960;
+    height: 8px;
+    border-radius: 10px;
+    width: 350px;
+}
+.green-4{
+    background-color: #0EA960;
+    height: 8px;
+    border-radius: 10px;
+    width: 40px;
+}
+.green-3{
+    background-color: #0EA960;
+    height: 8px;
+    border-radius: 10px;
+    width: 18px;
+}
+.green-2{
+    background-color: #0EA960;
+    height: 8px;
+    border-radius: 10px;
+    width: 12px;
+}
+.scoring-contiener{
+    margin-top: 8px;
+}
+.a-user{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.shaqa1-name{
+    padding-top: 5px;
+}
+.starring{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0px;
+}
+.starring>span{
+    font-size: 12px;
+}
+.users-opinion{
+    margin-top: 17px;
+}
+.user-comment{
+    padding-top: 6px;
+    margin-right: 5px;
+}
+.more-cooment>button{
+    cursor: pointer;
+    text-decoration: none;
+    border: none;
+    background-color: #f9fbff;
+    margin: 20px 195px auto auto; /*چرا وسط نیامد با 0 auto*/
+    color: #0EA960;
+    width: 250px;
+    font-weight: bold;
+    height: 35px;
+    border-radius: 4px;
+    font-size: 14px;
+} 
+.more-cooment>button:hover{
+    background-color: #F1F4FA;
+}
+.grading{
+    display: flex;
+    flex-direction: row;
+    gap: 34px;
+}
+.game-names{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    gap: 18px;
+} 
+.a-game>img{
+    height: 100px;
+    border-radius: 15px;
+    padding: 7px;
+}
+.related-programs{
+    margin-top: 16px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: #d4cece9c 1px solid;
+    width: 95%;
+}
+.others-have-installed{
+    margin-top: 16px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: #d4cece9c 1px solid;
+    width: 95%;}
+.similar-programs{
+    margin-top: 16px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: #d4cece9c 1px solid;
+    width: 95%;
+}
+.title-of-3{
+    font-size: 18px;
+    border-bottom:  #d4cece9c 1px solid;
+    margin: 10px auto 10px auto;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+.game-neme{
+    font-size: 13px;
+}
+.type-of-game{
+    color: #4d4a4a;
+    font-size: 14px;
+    padding-right: 10px;
+    padding: 7px 11px 7px 7px;
+}
+.a-game:hover{
+    cursor: pointer;
+    box-shadow: 5px 2px 7px #7e7b7b56;
+    transform: translate(1px);
+}
+.a-game{
+    border-radius: 8px;
+    background-color: #fff;
+}
+.no-game{
+    display: none;
+}
+.nothing{
+display: none;
+}
+.part-1-of-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 90px;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+.part-1{
+    display: flex;
+    flex-direction: row;  
+    align-items: center;}
+.border-black{
+    border-bottom:  #d4cece9c 1px solid;
+
+}
+.part-2{
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    border:  #d4cece9c 1px solid;
+    border-radius: 10px;
+    margin-left: 50px;
+    align-items: center;
+}
+.footer{
+    background-color: #fff;
+    box-shadow: -4px -4px 12px #bbb8b86c;
+    margin-right: 0 !important;
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin-top: 40px;
+}
+.detiels-footer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.detiels-footer>a:hover{
+    color: #0DA05B;
+}
+.contiener-footer{
+    display: flex;
+    flex-direction: row;
+    margin-right: 85px;
+    gap: 110px;
+}
+.photo-footer{
+    display: flex;
+}
+.last-part{
+    display: flex;
+    justify-content: space-between;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    margin-right: 6px;
+    gap: 10px;
+    margin-top: 10px;
+}
+.buttons>button{
+    border: #d4cece9c 1px solid;
+    background-color: #fff;
+    color: #0EA960;
+    padding: 10px;
+    border-radius: 5px;
+}
+.buttons>button:hover{
+    cursor: pointer;
+    background-color: #f1efefa4
+}
+.photo-footer>img{
+    height: 120px;
+    margin-top: 30px;
+    border: #d4cece9c 1px solid;
+    border-radius: 8px;
+}
+.photo-footer>img:hover{
+    cursor: pointer;
+}
+.photo-footer{
+    display: flex;
+    gap: 10px;
+}
+.last-part{
+    display: flex;
+    flex-direction: row;
+    margin-right: 80px;
+    margin-top: 20px;
+}
+.last-photo>img{
+    padding-left: 70px;
+}
+}
